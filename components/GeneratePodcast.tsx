@@ -87,7 +87,7 @@ const GeneratePodcast = (props: GeneratePodcastProps) => {
 					onChange={e => props.setVoicePrompt(e.target.value)}
 				></Textarea>
 			</div>
-			<div>
+			<div className='mt-5 w-full max-w-[200px]'>
 				<Button
 					type='submit'
 					className='text-16 bg-orange-1 py-4 font-bold text-white-1 '
